@@ -26,6 +26,7 @@
   color: var(--wesbos);
   letter-spacing: 2px;
   margin: 0;
+  font-weight: bold;
 }
 .item__dots {
   flex: 1;
@@ -35,6 +36,7 @@
 .item__price {
   color: var(--wesbos);
   font: 31px cookie, cursive;
+  font-weight: bold;
 }
 .item__description {
   margin-bottom: 40px;
