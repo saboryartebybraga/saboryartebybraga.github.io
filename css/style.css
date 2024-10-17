@@ -84,7 +84,7 @@
 }
 
 body {
-  margin: 0;
+  /*margin: 0;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -94,6 +94,23 @@ body {
   background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #fff;
+  */
+
+
+  margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgb(95 91 91)), url(https://wallpapers.com/images/high/cinnamon-buns-and-other-baked-goodies-4kw2oz1gf5vihdkf.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #fff;
+    background-attachment: fixed;
+
+
+
 }
 
 .wrapper {
