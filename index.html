@@ -8,38 +8,32 @@
 
   
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/Sabor&Arte.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="img/Sabor&Arte.png" />
 
-    <link rel="mask-icon" type="image/x-icon" href="img/Sabor&Arte.png" color="#111" />
+  <link rel="mask-icon" type="image/x-icon" href="img/Sabor&Arte.png" color="#111" />
 
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	    <meta content='https://saboryartebybraga.github.io/' property='og:url'/>
-        <meta content='Sabor y Arte by Braga' property='og:title'/>
-	    <meta content="🍽️ Restaurante 🇲🇽" name="Description">
-        <meta content='🍽️ Restaurante 🇲🇽' property='og:description'/>
-        <meta content='https://saboryartebybraga.github.io/img/logo.png' property='og:image'/>
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content='https://saboryartebybraga.github.io/' property='og:url'/>
+      <meta content='Sabor y Arte by Braga' property='og:title'/>
+    <meta content="🧁 Pastelería 🇲🇽" name="Description">
+      <meta content='🧁 Pastelería 🇲🇽' property='og:description'/>
+      <meta content='https://saboryartebybraga.github.io/img/logo.png' property='og:image'/>
 
 
-	<meta property="og:type" content="website" />
+<meta property="og:type" content="website" />
 <meta property="og:logo" content="https://saboryartebybraga.github.io/img/logo.png" />
-
-
-
   
-    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
 
 
-  <title>Saboryartebybraga</title>
 
-    <link rel="canonical" href="https://codepen.io/scharan/pen/mqjLrz">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
-  
-  
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
   
 <style>
 :root {
-  --wesbos: #ffc600;
+  --wesbos: #000;
 }
 
 .menu {
@@ -142,6 +136,144 @@ h2 {
   margin-top: 0;
   font: 50px cookie, cursive;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-redes-sociales {
+    margin: 0px 0;
+    padding: 0px;
+    text-align: center;
+}
+
+.contenedor-redes-sociales a {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    width: 200px;
+    line-height: 35px;
+    padding: 0;
+    color: #fff;
+    border-radius: 50px;
+    background: #fff;
+    margin: 5px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.contenedor-redes-sociales a:hover span.circulo {
+    left: 100%;
+    margin-left: -35px;
+    background: #fff;
+}
+
+.contenedor-redes-sociales a:hover span.titulo {
+    opacity: 0;
+}
+
+.contenedor-redes-sociales a:hover span.titulo-hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+    opacity: 0;
+}
+
+.contenedor-redes-sociales a span.circulo {
+    display: block;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 3px;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+
+.contenedor-redes-sociales a span.circulo i {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    vertical-align: middle; /* Alinea el ícono verticalmente */
+}
+
+.contenedor-redes-sociales a span.titulo, .contenedor-redes-sociales a span.titulo-hover {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.contenedor-redes-sociales a span.titulo {
+    right: 15px
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+    left: 15px
+}
+
+
+/----------Colores de los botones----------/
+
+.contenedor-redes-sociales .facebook {
+    border: 2px solid #3b5998;
+}
+
+.contenedor-redes-sociales .facebook:hover, .contenedor-redes-sociales .facebook span.circulo {
+    background: #3b5998;
+}
+
+.contenedor-redes-sociales .facebook:hover span.circulo, .contenedor-redes-sociales .facebook span.titulo {
+    color: #3b5998;
+}
+
+.contenedor-redes-sociales .twitter {
+    border: 2px solid #075e54;
+}
+
+.contenedor-redes-sociales .twitter:hover, .contenedor-redes-sociales .twitter span.circulo {
+    background: #25d366;
+}
+
+.contenedor-redes-sociales .twitter:hover span.circulo, .contenedor-redes-sociales .twitter span.titulo {
+    color: #128c7e;
+}
+
+/--------------Mediaqueries--------------/
+
+@media screen and (max-width: 480px) {
+    .contenedor-redes-sociales a {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
 </style>
 
   
@@ -152,50 +284,121 @@ h2 {
 <body translate="no">
   <div class="wrapper">
 
-  <h2>Menú</h2>
+  <h2>Menu Buffet</h2>
 
   <div class="buttons-container">
-    <a href="#" class="button button--is-active" data-target="pizzaMenu">Pizzas</a>
-    <a href="#" class="button" data-target="coffeeMenu">Coffee</a>
-    <a href="#" class="button" data-target="noodlesMenu">Noodles</a>
+    <a href="#" class="button button--is-active" data-target="pizzaMenu">Dulces</a>
+    <a href="#" class="button" data-target="noodlesMenu">Salados</a>
   </div>
 
   <!-- Start Pizza Menu -->
   <div class="menu menu--is-visible" id="pizzaMenu">
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Greek Pizza</h3>
+        <h3 class="item__title">Mantecadas.</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$22</span>
+        <span class="item__price">25 gr. (mini)</span>
       </div>
-      <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+      <p class="item__description">Vainilla/Chocolate</p>
     </div>
 
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Cheese Pizza</h3>
+        <h3 class="item__title">Conchas</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$20</span>
+        <span class="item__price">25 gr. (mini)</span>
       </div>
-      <p class="item__description"><H3>Lorem</H3>ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+      <p class="item__description">Vainilla/Chocolate/Colores</p>
     </div>
 
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Neapolitan Pizza</h3>
+        <h3 class="item__title">Rollos</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$18</span>
+        <span class="item__price">35 gr. (mini)</span>
       </div>
-      <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+      <p class="item__description">Crema/Fresa/Piña/Cajeta.</p>
     </div>
 
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Pepperoni Pizza</h3>
+        <h3 class="item__title">Roles</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$15</span>
+        <span class="item__price">30 gr. (mini)</span>
       </div>
-      <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+      <p class="item__description">Coco/Avellana.</p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Rejillas</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">35 gr. (mini)</span>
+      </div>
+      <p class="item__description">Fresa/Piña.</p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Hojaldras</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">40 gr. (mini)</span>
+      </div>
+      <p class="item__description">Jamon con queso/Champiñon con queso/Carne molida con queso.</p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Tartaleta de fruta</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">25 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Bolitas de queso</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">50 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Chocolatines</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">35 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Bigotes de azucar</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">30 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Orejas</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">30 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Banderillas</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">30 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
     </div>
   </div> <!-- End Pizza Menu -->
 
@@ -203,27 +406,27 @@ h2 {
   <div class="menu" id="coffeeMenu">
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Cappuccino</h3>
+        <h3 class="item__title">Baguettes para cremas</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$4</span>
+        <span class="item__price">350 gr.</span>
       </div>
-      <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+      <p class="item__description"></p>
     </div>
 
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Iced Coffee</h3>
+        <h3 class="item__title">Bolillos</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$5</span>
+        <span class="item__price">90 gr.</span>
       </div>
-      <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+      <p class="item__description"></p>
     </div>
 
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Café Latte</h3>
+        <h3 class="item__title">Bolillos con ajonjoli</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$3</span>
+        <span class="item__price">25 gr. (mini)</span>
       </div>
       <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
     </div>
@@ -242,42 +445,174 @@ h2 {
   <div class="menu" id="noodlesMenu">
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Chicken Noodles</h3>
+        <h3 class="item__title">Baguettes para cremas</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$16</span>
+        <span class="item__price">350 gr.</span>
       </div>
-      <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+      <p class="item__description">60 cm.</p>
     </div>
 
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Egg Noodles</h3>
+        <h3 class="item__title">Bolillos</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$12</span>
+        <span class="item__price">90 gr.</span>
       </div>
-      <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+      <p class="item__description"></p>
     </div>
 
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Veg Noodles</h3>
+        <h3 class="item__title">Bolillos con ajonjoli</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$10</span>
+        <span class="item__price">25 gr. (mini)</span>
       </div>
-      <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+      <p class="item__description"></p>
     </div>
 
     <div class="item">
       <div class="item__header">
-        <h3 class="item__title">Chuck Norris Noodles</h3>
+        <h3 class="item__title">Catutas</h3>
         <span class="item__dots"></span>
-        <span class="item__price">$20</span>
+        <span class="item__price">25 gr. (mini)</span>
       </div>
-      <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Chapatas</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">25 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Cuerno Danes</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">25 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Hamburguesas</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">22 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Base para pizza</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">350 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Pizzas</h3>
+        <span class="item__dots"></span>
+        <span class="item__price"> gr.</span>
+      </div>
+      <p class="item__description">Salami/Peperoni/Pña/Champiñones</p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Pan frances</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">150 gr.</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Pan para perro</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">25 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Pan de torta</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">50 gr.</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Torta</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">25 gr. (mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Teleras</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">70 gr.</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Tartaletas de lomo</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">25 gr.(mini)</span>
+      </div>
+      <p class="item__description"></p>
+    </div>
+
+    <div class="item">
+      <div class="item__header">
+        <h3 class="item__title">Volovanes de feite</h3>
+        <span class="item__dots"></span>
+        <span class="item__price">30 gr.(mini)</span>
+      </div>
+      <p class="item__description"></p>
     </div>
   </div> <!-- End Noodles Menu -->
 
+
+  <div class="contenedor-redes-sociales">
+
+    <h4>Nos adaptamos a la demanda del cliente</h4>
+
+
+    <a class="facebook" href="https://www.facebook.com/SaboryartebyBraga" target="_blank">
+      <span class="circulo"><i class="fab fa-facebook"></i></span>
+      <span class="titulo"><b>Sabor&ArtebyBraga</b></span>
+      <span class="titulo-hover">Seguir</span>
+    </a>
+  
+  <a class="twitter" href="https://api.whatsapp.com/send?phone=+529994961056&text=Hola,%20me%20interesa%20un%20presupuesto" target="_blank">
+   <span class="circulo" style="margin-top: 1px;"><i class="fab fa-whatsapp"></i></span>
+   <span class="titulo"><b>999 496 1056</b></span>
+   <span class="titulo-hover">Contacto</span>
+  </a>
+  
+  </div>
+
+
 </div> <!-- End Wrapper -->
+
+
+
   
       <script id="rendered-js" >
 const buttons = document.querySelectorAll('.button');
