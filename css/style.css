@@ -27,6 +27,7 @@
   letter-spacing: 2px;
   margin: 0;
   font-weight: bold;
+  color: rgb(235, 235, 235);
 }
 .item__dots {
   flex: 1;
@@ -37,6 +38,7 @@
   color: var(--wesbos);
   font: 31px cookie, cursive;
   font-weight: bold;
+  color: rgb(235, 235, 235);
 }
 .item__description {
   margin-bottom: 40px;
