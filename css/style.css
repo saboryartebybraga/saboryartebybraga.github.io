@@ -28,6 +28,7 @@
   margin: 0;
   font-weight: bold;
   color: rgb(235, 235, 235);
+
 }
 .item__dots {
   flex: 1;
@@ -101,7 +102,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgb(95 91 91)), url(https://wallpapers.com/images/high/cinnamon-buns-and-other-baked-goodies-4kw2oz1gf5vihdkf.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgb(0 0 0)), url(https://wallpapers.com/images/high/cinnamon-buns-and-other-baked-goodies-4kw2oz1gf5vihdkf.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -152,7 +153,7 @@ h2 {
     position: relative;
     display: inline-block;
     height: 36px;
-    width: 200px;
+    width: 220px;
     line-height: 35px;
     padding: 0;
     color: #fff;
@@ -253,7 +254,7 @@ h2 {
 
 @media screen and (max-width: 480px) {
     .contenedor-redes-sociales a {
-        width: 100%;
+        width: 250px;
         margin: 0;
         margin-bottom: 10px;
     }
@@ -261,4 +262,21 @@ h2 {
 
 
 
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
 
+  
+  footer .contenedor-redes-sociales a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  footer .contenedor-redes-sociales a:hover {
+    color: #ddd; /* Color al pasar el ratón */
+  }
