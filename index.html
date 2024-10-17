@@ -420,26 +420,25 @@ window.addEventListener('scroll', function() {
   var buttonsContainer = document.querySelector('.buttons-container');
   var currentScrollY = window.scrollY;
   var offsetTop = buttonsContainer.offsetTop;
-  var offsetBottom = window.innerHeight - (buttonsContainer.offsetTop + buttonsContainer.offsetHeight);
-
-
-  console.log(currentScrollY);
 
   // Detectar si se está haciendo scroll hacia abajo
   if (currentScrollY > lastScrollY && currentScrollY > offsetTop - 10) {
-    // Si el scroll baja, fijar el contenedor
-    buttonsContainer.classList.add('fixed');
+    // Añadir la clase solo si no está aplicada
+    if (!buttonsContainer.classList.contains('fixed')) {
+      buttonsContainer.classList.add('fixed');
+    }
   } 
-  // Detectar si se está haciendo scroll hacia arriba
-  else if (currentScrollY =  5 ) {
-    // Si el scroll sube, devolver el contenedor a su posición original
-    buttonsContainer.classList.remove('fixed');
+  // Detectar si se está haciendo scroll hacia arriba y al llegar a la parte superior de la página
+  else if (currentScrollY <= 5) {
+    // Eliminar la clase solo si está aplicada
+    if (buttonsContainer.classList.contains('fixed')) {
+      buttonsContainer.classList.remove('fixed');
+    }
   }
 
   // Actualizar la última posición de scroll
   lastScrollY = currentScrollY;
 });
-
 
 
 document.querySelectorAll('.buttons-container .button').forEach(button => {
